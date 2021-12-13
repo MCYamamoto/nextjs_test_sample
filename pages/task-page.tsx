@@ -22,7 +22,7 @@ const TaskPage: VFC<STATICPROPS> = ({ staticTasks }) => {
     revalidateOnMount: true,
   })
 
-  if (error) return <span>Error!</span>
+  if (error) return <span>Eror!</span>
   return (
     <Layout title={'TaskPage'}>
       <p className="text-4xl mb-10">task page</p>
